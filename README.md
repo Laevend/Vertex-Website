@@ -1,6 +1,9 @@
 # Vertex Website
 Vertex Website is a work-in-progress front-end web development project built with bootstrap 4. It's purpose is to inform the user/player of the different features we have deployed on our game servers.
 
+This website can be found live [Here](https://www.vertexmc.org/)
+
+
 ## Features
 * Built with Bootstrap 4
 * Sticky navigation bar & footer
