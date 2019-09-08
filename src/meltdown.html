@@ -1,0 +1,376 @@
+<!--
+    =========================================================
+     Vertex Website 2 - v2.0.0
+    =========================================================
+    
+     Copyright 2019 Vertex
+    
+     Coded by Laeven
+    
+    =========================================================
+     -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="theme-color" content="#2f3136" />
+        <link rel="icon" type="image/png" href="./img/icon.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>
+            Vertex | Meltdown
+        </title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+        <!--     Fonts and icons     -->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+        <!-- CSS Files -->
+        <link href="./css/bootstrap.min.css" rel="stylesheet" />
+        <link href="./css/bootstrap-grid.min.css" rel="stylesheet" />
+        <link href="./css/bootstrap-reboot.min.css" rel="stylesheet" />
+        <link href="./css/vertexcss.css" rel="stylesheet" />
+    </head>
+    <body class="index-page sidebar-collapse home-page">
+        <div class="v-content">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-v fixed-top shadow-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="./img/navbarlogo.png" alt="VertexLogo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gamemodes
+                                </a>
+                                <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                                <div class="dropdown-menu dropdown-menu-right animate slideIn" id="dropdown-menu-v" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" id="dropdown-item-v" href="athendria.html">Athendria</a>
+                                    <a class="dropdown-item" id="dropdown-item-v" href="mellow.html">Mellow</a>
+                                    <a class="dropdown-item" id="dropdown-item-v" href="meltdown.html">Meltdown</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://vertex.news.blog/">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="premium.html">Premium</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://discord.gg/jkGwkQf">Discord</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="wiki.html">Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://vertexmc.tebex.io/">Store</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="vote.html">Vote</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="rules.html">Rules</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+
+            <!-- Header -->
+            <header>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <!-- Slide One -->
+                        <div class="carousel-item active parallax" data-interval="4000" style="background-image: url('./img/meltdown/1.png')">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <!-- Slide Two -->
+                        <div class="carousel-item parallax" data-interval="4000" style="background-image: url('./img/meltdown/2.png')">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <!-- Slide Three -->
+                        <div class="carousel-item parallax" data-interval="4000" style="background-image: url('./img/meltdown/3.png')">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </header>
+            <!-- End Header -->
+
+            <!-- Section -->
+            <div class="container v-gamemode-logo-desc">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-12" align="center">
+                        <img class="rounded-circle img-border mx-auto d-block shadow-lg" src="img/meltdown/logo.png" width="300" height="300" alt="Meltdown"></img>
+                        <br>
+                        <h2 class="sub-title" id="gamemode-title">Meltdown</h2>
+                        <p id="gamemmode-desc">
+                            In a world where you stand at the end of time. The dust beneath your feet carries the history of all previous eons. Stranded on a dying planet, you must take shelter in your vault, research many new technologies and build a sustainable future for yourself. Anarchy is everywhere for no one calls the shots anymore. Be carful who you trust, it may end up costing you everything.
+                        </p>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- End Secion -->
+
+            <!-- Section -->
+            <div class="container home-img">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-12" align="center">
+                        <h2 class="sub-title sub-title-border">Features</h2>
+                        <p id="gamemmode-desc">
+                            Below are a list of features meltdown will have when it's released. This list is <strong>not</strong> final and is expected to change from time to time. <strong>Meltdown is still currently being developed and is not in a completed state.</strong>
+                        </p>
+                        <p id="gamemmode-desc">
+                            (Click on a feature to display more information about it)
+                        </p>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- End Secion -->
+
+            <!-- Section -->
+            <div class="container">
+                <div class="accordion" id="accordionExample">
+                    <!-- Card 1 -->
+                    <div class="card" id="gamemode-mech-list">
+                        <div class="card-header" id="headingOne">
+                            <button class="btn btn-link" id="gamemode-mech-title" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Toxic Atmosphere
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                The air on the planet is toxic to breath. It's also very hot during the days and very cold during the nights. You must wear special equipment to prevent you from the atmosphere and the elements.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    <!-- Card -->
+                    <div class="card" id="gamemode-mech-list">
+                        <div class="card-header" id="headingTwo">
+                            <button class="btn btn-link" id="gamemode-mech-title" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                Vault Creation System
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Your vault will act as your safest base of operations. Initally starting out as an 11x11x11 area, you can expand it to a maximum size of 51x51x256. All this space can be used for whatever you wish: Storing loot, building inventions, providing beds for workers etc. The air in your vault is non toxic and the thick walls shield you from the outside elements. In the event your vault is raided you can move the entrance to a different spot in the world.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    <!-- Card -->
+                    <div class="card" id="gamemode-mech-list">
+                        <div class="card-header" id="headingThree">
+                            <button class="btn btn-link" id="gamemode-mech-title" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                Technology Tree
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                A system that is used when interacting with a workbench to built new types of technology that can assist you out in the wasteland or inside the vault. These can be new types of weapons, better power generators, new augment perks etc. Some technologies can only be found by raiding sentient AI bases or by killing monsters.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    <!-- Card -->
+                    <div class="card" id="gamemode-mech-list">
+                        <div class="card-header" id="headingFour">
+                            <button class="btn btn-link" id="gamemode-mech-title" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                Tiers of tools
+                            </button>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                There are 10 tiers of tools and weapons that can be acquired:
+                                <ul>
+                                    <li>
+                                        <strong>Wood</strong> - Regular wood.
+                                    </li>
+                                    <li>
+                                        <strong>Stone</strong> - Regular stone.
+                                    </li>
+                                    <li>
+                                        <strong>Iron</strong> - Regular Iron.
+                                    </li>
+                                    <li>
+                                        <strong>Steel</strong> - Harder and more durable than iron.
+                                    </li>
+                                    <li>
+                                        <strong>Gilded</strong> Steel - A perfected version of steel.
+                                    </li>
+                                    <li>
+                                        <strong>Diamond</strong> - Regular diamond.
+                                    </li>
+                                    <li>
+                                        <strong>Virtanium</strong> - Crushing diamond and emerald together.
+                                    </li>
+                                    <li>
+                                        <strong>Ethereal</strong> - A metal with an ambient temperature of 7000 degrees.
+                                    </li>
+                                    <li>
+                                        <strong>Uranium-235</strong> - A radioactive element.
+                                    </li>
+                                    <li>
+                                        <strong>Chrono-locked</strong> Matter - Matter that is time-locked and can never decay.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    <!-- Card -->
+                    <div class="card" id="gamemode-mech-list">
+                        <div class="card-header" id="headingTwelve">
+                            <button class="btn btn-link" id="gamemode-mech-title" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseOne">
+                                Bounty
+                            </button>
+                        </div>
+                        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Players are able to set a cash bounty on you at any time. The first person to kill you gets that cash. Multiple bounties can be placed on any player and will stack. Sometimes the server will set a bouty on a random player.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    <!-- Card -->
+                    <div class="card" id="gamemode-mech-list">
+                        <div class="card-header" id="headingThirteen">
+                            <button class="btn btn-link" id="gamemode-mech-title" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseOne">
+                                Level System
+                            </button>
+                        </div>
+                        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+                            <div class="card-body">
+                                A simple level system which starts at 1 and can go up to a maximum of 120. Experience can be gained through killing monsters, killing pllayers, raiding bases, and researching technologies. With each level gained, you will gain 100 more health and 2 perk points. These perk points can be spent on the following:
+                                <ul>
+                                    <li>
+                                        <strong>Damage Mitigation</strong> - Mitigates the amount of total damage you take.
+                                    </li>
+                                    <li>
+                                        <strong>Crafting Efficiency</strong> - Unlocks new recipes that allow you to craft the same items with less materials
+                                    </li>
+                                    <li>
+                                        <strong>Beast Handling</strong> - Unlocks particular hostible monsters that you can summon to fight enemy players for you
+                                    </li>
+                                    <li>
+                                        <strong>Raw Strength</strong> - Increases your base damage
+                                    </li>
+                                    <li>
+                                        <strong>Advanced Invention</strong> - Unlocks blueprints for devices that can be built to help yourself, automate resource gathering and to protect the vault.
+                                    </li>
+                                    <li>
+                                        <strong>Silent Stealing</strong> - Unlocks the ability to steal items from other users & increased chance of stealing the weapon a player is holding. The player being stolen from must not be looking at you if you are to steal items from their inventory.
+                                    </li>
+                                    <li>
+                                        <strong>Alert & Aware</strong> - Widens the field of view, preventing stealing from a wider angle. Also lowers the chance of another player stealing your held item.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                </div>
+            </div>
+            <!-- End Secion -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer font-small blue pt-4">
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left" id="sticky-footer">
+                <!-- Grid row -->
+                <div class="container">
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-4 mb-md-0 mb-4" align="center">
+                            <!-- Content -->
+                            <img src="./img/navbarlogo.png" alt="VertexLogo">
+                            <br>
+                            <br>
+                            <p>A minecraft network of experimental twists on many genres. Gamemodes include Athendria, Mellow, and Meltdown.</p>
+                        </div>
+                        <!-- Grid column -->
+                        <div class="col-md-4 mb-md-0 mb-4">
+                            <!-- Server info -->
+                            <h5>Server Info</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    Version: <strong>1.14.4</strong>
+                                </li>
+                                <li>
+                                    Host: <strong>play.vertexmc.org</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-4 mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h5>Links</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a style="text-decoration:none" href="terms.html">Terms</a>
+                                </li>
+                                <li>
+                                    <a style="text-decoration:none" href="staff.html">Staff</a>
+                                </li>
+                                <li>
+                                    <a style="text-decoration:none" href="faq.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <a style="text-decoration:none" href="aboutus.html">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </div>
+            <!-- Footer Links -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3" id="stick-footer-bottom">
+                © 2019 Vertex Inc. All Rights Reserved
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Back To Top Button -->
+        <a href="#" id="scroll" style="display: none;"><span></span></a>
+        <!-- End Back To Top Button -->
+
+        <!--  JS Files   -->
+        <script src="./js/jquery.slim.min.js" type="text/javascript"></script>
+        <script src="./js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="./js/backToTop.js"></script>
+        <script src="./js/smooth-scroll.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./js/smooth-scroll-click.js"></script>
+        <script src="./js/nav-bar-transparent.js"></script>
+    </body>
+</html>
